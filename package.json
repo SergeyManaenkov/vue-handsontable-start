@@ -1,0 +1,41 @@
+{
+  "name": "vue-handsontable-start",
+  "version": "1.0.0",
+  "description": "",
+  "author": "SergeyManaenkov",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --mode production --progress --hide-modules"
+  },
+  "dependencies": {
+    "@handsontable-pro/vue": "^3.0.0",
+    "handsontable-pro": "^6.1.1",
+    "jquery": "^1.11.1",
+    "numeral": "^2.0.6",
+    "vue": "^2.5.17",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.5",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "file-loader": "^2.0.0",
+    "vue-loader": "14.2.3",
+    "css-loader": "^1.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack-merge": "^4.1.4"
+  }
+}
